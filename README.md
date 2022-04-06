@@ -1,4 +1,6 @@
 # core-code-from-scratch-readme
+
+Week 1 challenge (April 5th Tuesday) 
 Interpreted And Compiled Programming Languages
 
 1. Interpreted languages are processed line by line of code by the program and Compiled languages are processed in human language first and then proceseed by the machine.
