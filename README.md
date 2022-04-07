@@ -20,3 +20,14 @@ Interpreted And Compiled Programming Languages
 - Low level languages are more complex for us to learn but give us more control and is executed direcly by the cpu.
 
 - High level languages are easier for us to read and write.
+
+
+              Week 1 challenge (April 6th Wednesday) 
+
+Year of birth in binary, year 1993
+
+(1993) decimal = () binary
+
+2048 
+
+
