@@ -26,8 +26,61 @@ Interpreted And Compiled Programming Languages
 
 Year of birth in binary, year 1993
 
-(1993) decimal = () binary
+(1993) decimal = (11111001001) binary
 
-2048 
+subtraction method 
+1993 ->1024 + 512 + 256 + 128 +64 +8 
+
+1993 - 1024 = 969      969-512= 457    457-256= 201   201-128= 73   73-64= 9   9-8= 1  
+
+ 1,024 512 256 128 64 32 16 8 4 2 1
+ 
+ 11111001001
+ 
+ 
+
+MIPS Exercise
+
+.data
+       
+        result: .asciiz "\nEl resultado es: "
+        number_one_msg: .asciiz "\nIngrese el primer numero: "
+        number_two_msg: .asciiz "\nIngrese el segundo numero: "
+  .text
+        main:
+   	      # user input
+              li $v0, 4
+              la $a0, number_one_msg
+              syscall
+
+              li $v0, 5
+              syscall
+
+              # saving user input
+              move $t0, $v0
+
+              # user input
+              li $v0, 4
+              la $a0, number_two_msg
+              syscall
+
+              li $v0, 5
+              syscall
+
+              # saving user input
+              move $t1, $v0
+
+              # adding the user numbers
+              add $t2, $t0, $t1
+
+              # showing result number
+              li $v0, 4
+              la $a0, result
+              syscall
+
+              # printing number
+              li $v0, 1
+              move $a0, $t2
+              syscall
 
 
