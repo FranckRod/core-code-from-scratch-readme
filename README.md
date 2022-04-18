@@ -84,3 +84,8 @@ MIPS Exercise
               syscall
 
 
+
+
+
+ Week 1 challenge (April 7th Thursday) 
+
