@@ -85,7 +85,17 @@ MIPS Exercise
 
 
 
-
-
  Week 1 challenge (April 7th Thursday) 
+ 
+ 
+ Week 2 challenge (April 19th Tuesday)
+ 
+ CODEWARS EXERCISES 
+ 
+1. Multiply exercise
+
+function multiply(a, b){
+ return a * b
+}
+
 
