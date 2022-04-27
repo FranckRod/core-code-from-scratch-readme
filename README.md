@@ -1,6 +1,6 @@
 # core-code-from-scratch-readme
 
-Week 1 challenge (April 5th Tuesday) 
+### Week 1 challenge (April 5th Tuesday) 
 Interpreted And Compiled Programming Languages
 
 1. Interpreted languages are processed line by line of code by the program and Compiled languages are processed in human language first and then proceseed by the machine.
@@ -88,21 +88,21 @@ MIPS Exercise
 
 
 
- Week 1 challenge (April 7th Thursday) 
+### Week 1 challenge (April 7th Thursday) 
  
 PRINTS SPECIAL NUMBES 
 
 
 ```js 
 for (let a = 0; a < 101; a++) {
-  if (a % 2 == 0) 
+  if (a % 2 === 0) 
     
     console.log(a);
 }
 ```
  
  
- Week 2 challenge (April 19th Tuesday)
+ ### Week 2 challenge (April 19th Tuesday)
  
  CODEWARS EXERCISES 
  
@@ -114,12 +114,12 @@ function multiply(a, b){
 }
 ```
 
-Week 3 challenge (April 25th Monday)
+### Week 3 challenge (April 25th Monday)
 
 
 April 26th Tuesday
 
-h3 Simple Pig Latin
+ Simple Pig Latin
 
 
 
