@@ -98,4 +98,23 @@ function multiply(a, b){
  return a * b
 }
 
+Week 3 challenge (April 25th Monday)
+
+
+April 26th Tuesday
+
+Simple Pig Latin
+
+	`code`
+function pigIt(str) {
+  const firstletter = str.split(' ')
+  return firstletter
+  
+  .map((word) => {
+
+     return word.match(/[A-z]/i)
+        ? `${word.substr(1)}${word.substr(0, 1)}ay`
+        : word
+    })
+    .join(' ')
 
