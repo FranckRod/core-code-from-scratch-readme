@@ -10,10 +10,12 @@ Interpreted And Compiled Programming Languages
 3. pseudocode currency converter
 
 -START 
-- Quantity -- Get
-- btcvalue -- Get
+- Quantity -- GET
+- btcvalue -- GET from https://coinmarketcap.com/currencies/bitcoin/
 - Conversation -- quantity * btcvalue
-- total conversation 
+- TOTAL conversation 
+- END
+
 
 4.  High and Low level languages
 
@@ -38,6 +40,7 @@ subtraction method
  11111001001
  
  
+
 
 MIPS Exercise
 
