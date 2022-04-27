@@ -100,6 +100,21 @@ for (let a = 0; a < 101; a++) {
     console.log(a);
 }
 ```
+
+
+BAD CODE 1
+
+The error is that the value of cod was changed using the assignment = operator instead of the == equality operator  
+
+```js 
+var cond = false;
+
+if ((cond == true)) {
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}
+```
  
  
  ### Week 2 challenge (April 19th Tuesday)
