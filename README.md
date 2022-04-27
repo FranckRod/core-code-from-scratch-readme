@@ -105,16 +105,16 @@ April 26th Tuesday
 
 Simple Pig Latin
 
-	`code`
+	```
 
 function pigIt(str) {
-  const firstletter = str.split(' ')
-  return firstletter
-  
- .map((word) => {
-`code`
-     return word.match(/[A-z]/i)
+  const arr = str.split(' ')
+  return arr
+    .map((word) => {
+      return word.match(/[A-z]/i)
         ? `${word.substr(1)}${word.substr(0, 1)}ay`
         : word
     })
     .join(' ')
+}
+```
