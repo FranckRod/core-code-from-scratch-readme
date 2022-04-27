@@ -90,6 +90,17 @@ MIPS Exercise
 
  Week 1 challenge (April 7th Thursday) 
  
+PRINTS SPECIAL NUMBES 
+
+
+```js 
+for (let a = 0; a < 101; a++) {
+  if (a % 2 == 0) 
+    
+    console.log(a);
+}
+```
+ 
  
  Week 2 challenge (April 19th Tuesday)
  
@@ -97,20 +108,23 @@ MIPS Exercise
  
 1. Multiply exercise
 
+```js
 function multiply(a, b){
  return a * b
 }
+```
 
 Week 3 challenge (April 25th Monday)
 
 
 April 26th Tuesday
 
-Simple Pig Latin
+h3 Simple Pig Latin
 
 
 
-```function pigIt(str) {
+```js
+function pigIt(str) {
   const firstletter = str.split(' ')
   return firstletter
   
