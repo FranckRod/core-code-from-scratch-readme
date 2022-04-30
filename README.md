@@ -148,7 +148,22 @@ if (n < 1000 && n % 10 === 0) {
 
 ```js
 function multiply(a, b){
- return a * b
+ return a * b;
+}
+```
+
+2. ASCII
+
+```js
+function uniTotal (string) {
+  let total = 0;
+  let totalcaracters = string.length;
+  
+  for (let i = 0; i < totalcaracters; i++) {
+    let chr = string[i];
+    total = total + chr.charCodeAt();
+  }
+  return total;
 }
 ```
 
