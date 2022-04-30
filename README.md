@@ -203,6 +203,28 @@ const finalGrade = (exam, projects) => {
 
 Holiday- Duty Free
 
+Valid Spacing (resolved in the Stand Up session)
+
+```js
+function validSpacing(s) {
+  if(s.charAt(0) === ' ' || s.charAt(s.length - 1) === ' ') { 
+     return false;
+  }
+  
+  for(let i = 0; i < s.length; i++) {
+    if(s.charAt(i) === ' '){ 
+      if(i != 0 && s.charAt(i-1) === ' ') {
+        return false;
+      }
+      if(i != (s.length - 1) && s.charAt(i+1) === ' ') {
+        return false;
+      }
+    }
+  }
+  
+  return true; 
+}
+```
 
 
 ### Week 3 challenge (April 25th Monday)
