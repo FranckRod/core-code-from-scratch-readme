@@ -81,7 +81,7 @@ MIPS Exercise, suma de 2 numeros
 	syscall
   ```
   
-  Mostrar mi nomber
+  Mostrar mi nombre
   
   ```js
 	.data
