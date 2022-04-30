@@ -175,6 +175,30 @@ function getChar(c){
 }
 ```
 
+4. Binary addition
+
+```js
+function addBinary(a,b){
+
+let result = (a + b).toString(2);
+
+return result;
+}
+addBinary(1,2);
+```
+
+5. Student's final grade
+
+```js
+const finalGrade = (exam, projects) => {
+  if (exam > 90 || projects > 10) return 100
+  if (exam > 75 && projects >= 5) return 90
+  if (exam > 50 && projects >= 2) return 75
+
+  return 0
+}
+```
+
 
 ### Week 3 challenge (April 25th Monday)
 
