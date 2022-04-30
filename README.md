@@ -199,6 +199,11 @@ const finalGrade = (exam, projects) => {
 }
 ```
 
+#### Week 2 challenge (April 20th Wednesday)
+
+Holiday- Duty Free
+
+
 
 ### Week 3 challenge (April 25th Monday)
 
