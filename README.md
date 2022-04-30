@@ -111,7 +111,7 @@ for (let a = 0; a < 101; a++) {
 
 BAD CODE 1
 
-The error is that the value of cod was changed using the assignment = operator instead of the == equality operator  
+The error is that the value of cod was changed using the = assignment operator instead of the == equality operator  
 
 ```js 
 var cond = false;
