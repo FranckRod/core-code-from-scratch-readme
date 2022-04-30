@@ -44,49 +44,44 @@ subtraction method
 
 MIPS Exercise
 
+```js
 .data
-       
-        result: .asciiz "\nEl resultado es: "
-        number_one_msg: .asciiz "\nIngrese el primer numero: "
-        number_two_msg: .asciiz "\nIngrese el segundo numero: "
-  .text
-        main:
-   	      # user input
-              li $v0, 4
-              la $a0, number_one_msg
-              syscall
-
-              li $v0, 5
-              syscall
-
-              # saving user input
-              move $t0, $v0
-
-              # user input
-              li $v0, 4
-              la $a0, number_two_msg
-              syscall
-
-              li $v0, 5
-              syscall
-
-              # saving user input
-              move $t1, $v0
-
-              # adding the user numbers
-              add $t2, $t0, $t1
-
-              # showing result number
-              li $v0, 4
-              la $a0, result
-              syscall
-
-              # printing number
-              li $v0, 1
-              move $a0, $t2
-              syscall
-
-
+	number1: .asciiz "\nIngresar el primer numero: "
+	number2: .asciiz "\nIngresar el segundo numero: "
+	add_numbers: .asciiz "\nEl resultado de la suma sera: "
+	
+.text 
+	main:
+	li $v0, 4
+	la $a0, number1
+	syscall
+	
+	li $v0, 5
+	syscall
+	
+	move $t0, $v0
+	
+	li $v0, 4
+	la $a0, number2
+	syscall 
+	
+	li $v0, 5
+	syscall 
+	
+	move $t1, $v0
+	
+	add $t2, $t0, $t1
+	
+	li $v0, 4
+	la $a0, add_numbers
+	syscall 
+	
+	li $v0, 1
+	move $a0, $t2
+	syscall
+  ```
+	
+   
 
 ### Week 1 challenge (April 7th Thursday) 
  
