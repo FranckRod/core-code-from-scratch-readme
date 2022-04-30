@@ -167,6 +167,15 @@ function uniTotal (string) {
 }
 ```
 
+3. Get character from ASCII Value
+
+```js
+function getChar(c){
+  return String.fromCharCode(c);
+}
+```
+
+
 ### Week 3 challenge (April 25th Monday)
 
 
