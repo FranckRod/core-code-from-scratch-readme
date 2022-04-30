@@ -42,7 +42,7 @@ subtraction method
  
 
 
-MIPS Exercise
+MIPS Exercise, suma de 2 numeros
 
 ```js
 .data
@@ -79,6 +79,18 @@ MIPS Exercise
 	li $v0, 1
 	move $a0, $t2
 	syscall
+  ```
+  
+  Mostrar mi nomber
+  
+  ```js
+	.data
+	      my_name: .asciiz "\nYosef\n"
+  .text
+	      main:
+              li $v0, 4
+              la $a0, my_name
+              syscall
   ```
 	
    
