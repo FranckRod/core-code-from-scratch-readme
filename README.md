@@ -85,7 +85,7 @@ MIPS Exercise, suma de 2 numeros
   
   ```js
 	.data
-	      my_name: .asciiz "\nYosef\n"
+	      my_name: .asciiz "\nAntonio\n"
   .text
 	      main:
               li $v0, 4
