@@ -122,6 +122,22 @@ if ((cond == true)) {
   console.log('The cond variable is false');
 }
 ```
+
+BAD CODE 2
+
+```js
+var n = 100;
+
+if (n == 100) {
+  console.log('This is a special number!');
+}
+if (n < 1000 && n % 10 === 0) {
+  console.log('This number is almost special');
+} else {
+  console.log('Just a regular number');
+}
+
+```
  
  
  ### Week 2 challenge (April 19th Tuesday)
