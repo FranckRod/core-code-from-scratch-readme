@@ -203,6 +203,18 @@ const finalGrade = (exam, projects) => {
 
 Holiday- Duty Free
 
+```js
+function dutyFree(normPrice, discount, hol) {
+
+  let discPrice = (normPrice * discount) /100; 
+
+  let bottleswithdisc = hol / discPrice;
+  
+  let finalResult = Math.floor(bottleswithdisc);
+  return finalResult;
+}
+```
+
 Valid Spacing (resolved in the Stand Up session)
 
 ```js
