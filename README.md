@@ -244,6 +244,7 @@ function validSpacing(s) {
   return true; 
 }
 ```
+Fake Binary 
 
 ```js
 function fakeBin(x){
