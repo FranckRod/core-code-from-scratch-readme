@@ -215,6 +215,13 @@ function dutyFree(normPrice, discount, hol) {
 }
 ```
 
+Twice as old 
+```js
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+return Math.abs(2 * sonYearsOld - dadYearsOld);
+}
+```
+
 Valid Spacing (resolved in the Stand Up session)
 
 ```js
