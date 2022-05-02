@@ -245,6 +245,11 @@ function validSpacing(s) {
 }
 ```
 
+```js
+function fakeBin(x){
+return x.split("").map( i => i < 5 ? 0 : 1).join("")
+}
+```
 
 ### Week 3 challenge (April 25th Monday)
 
