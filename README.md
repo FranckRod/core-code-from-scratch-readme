@@ -253,3 +253,5 @@ return x.split("").map( i => i < 5 ? 0 : 1).join("")
 ```
 
 
+### Week 7 Challenge (May 23th Monday)
+#### OOP Glossary
